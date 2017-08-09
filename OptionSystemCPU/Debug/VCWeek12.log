@@ -1,0 +1,40 @@
+﻿  VanillaEngine.cpp
+d:\codes\cuda\optionsystem\vanillaengine.h(2): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  VanillaBSEngine.cpp
+d:\codes\cuda\optionsystem\vanillaengine.h(2): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  Vanilla3.cpp
+  SimpleMC8.cpp
+  RandomMain4.cpp
+d:\codes\cuda\optionsystem\convergencetable.h(11): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  RandomMain3.cpp
+d:\codes\cuda\optionsystem\convergencetable.h(11): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  Random2.cpp
+  PayOffBridge.cpp
+  PayOff3.cpp
+  ParkMiller.cpp
+  Parameters.cpp
+  Normals.cpp
+  MCStatistics.cpp
+  ConvergenceTable.cpp
+d:\codes\cuda\optionsystem\convergencetable.h(11): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  Arrays.cpp
+d:\softwares\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(2350): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  d:\softwares\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(2350): note: see declaration of 'std::copy::_Unchecked_iterators::_Deprecate'
+  d:\codes\cuda\optionsystem\arrays.cpp(41): note: see reference to function template instantiation '_OutIt *std::copy<double*,double*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=double *,
+              _InIt=double *
+          ]
+d:\softwares\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(970): warning C4996: 'std::transform::_Unchecked_iterators::_Deprecate': Call to 'std::transform' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  d:\softwares\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\algorithm(970): note: see declaration of 'std::transform::_Unchecked_iterators::_Deprecate'
+  d:\codes\cuda\optionsystem\arrays.cpp(274): note: see reference to function template instantiation '_OutIt *std::transform<double*,double*,double(__cdecl *)(double)>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+          with
+          [
+              _OutIt=double *,
+              _InIt=double *,
+              _Fn1=double (__cdecl *)(double)
+          ]
+  AntiThetic.cpp
+d:\codes\cuda\optionsystem\antithetic.h(11): fatal error C1083: Cannot open include file: 'wrapper.h': No such file or directory
+  Generating Code...
