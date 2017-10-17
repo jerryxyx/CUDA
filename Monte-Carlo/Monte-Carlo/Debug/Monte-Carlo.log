@@ -112,6 +112,7 @@ D:/Codes/CUDA/Monte-Carlo/Monte-Carlo/Euler_Euro_Option.cu(193): warning C4533: 
 D:/Codes/CUDA/Monte-Carlo/Monte-Carlo/Euler_Euro_Option.cu(193): warning C4533: initialization of 'time1' is skipped by 'goto Error'
   D:/Codes/CUDA/Monte-Carlo/Monte-Carlo/Euler_Euro_Option.cu(105): note: see declaration of 'time1'
   D:/Codes/CUDA/Monte-Carlo/Monte-Carlo/Euler_Euro_Option.cu(193): note: see declaration of 'Error'
+  LINK : D:\Codes\CUDA\Monte-Carlo\Debug\Monte-Carlo.exe not found or not built by the last incremental link; performing full link
   Monte-Carlo.vcxproj -> D:\Codes\CUDA\Monte-Carlo\Debug\Monte-Carlo.exe
   Monte-Carlo.vcxproj -> D:\Codes\CUDA\Monte-Carlo\Debug\Monte-Carlo.pdb (Full PDB)
   copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\Codes\CUDA\Monte-Carlo\Debug\"

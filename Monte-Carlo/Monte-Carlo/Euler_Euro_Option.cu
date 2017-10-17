@@ -65,6 +65,24 @@ __global__ void init(
 		&d_state[threadIdx.x + blockDim.x * blockIdx.x]);
 }
 
+__global__ void init2(
+	unsigned int seed1,
+	unsigned int seed2,
+	curandState_t *d_state1,
+	curandState_t *d_state2)
+{
+	curand_init(
+		seed1,
+		threadIdx.x + blockDim.x * blockIdx.x,
+		0,
+		&d_state1[threadIdx.x + blockDim.x * blockIdx.x]);
+	curand_init(
+		seed2,
+		threadIdx.x + blockDim.x * blockIdx.x,
+		0,
+		&d_state2[threadIdx.x + blockDim.x * blockIdx.x]);
+
+}
 
 int main()
 {
@@ -81,7 +99,11 @@ int main()
 	cudaMalloc((void**)&d_prices, n_trials * sizeof(float));
 	cudaMalloc((void**)&d_stockPrices, n_trials * sizeof(float));
 	curandState_t *d_state;
+	curandState_t *d_state1;
+	curandState_t *d_state2;
 	cudaMalloc((void**)&d_state, n_trials * sizeof(curandState_t));
+	cudaMalloc((void**)&d_state1, n_trials * sizeof(curandState_t));
+	cudaMalloc((void**)&d_state2, n_trials * sizeof(curandState_t));
 	std::string optionType;
 	bool isCall;
 	
